@@ -369,13 +369,15 @@ tail -f ./oci-start.log
 
 
  
-# 해당 인스턴스를 자동으로 확보하기 위한 스크립트를 제작해 인스턴스를 확보하고, 
-# SSH 키를 분실했을 때 배스천(Bastion)을 이용해 새 키를 주입하며, 
-# 인스턴스 정지 후 자원이 회수되어 다시 할당하기까지의 모든 과정을 담았습니다.
-
-# Includes creating a script to automatically secure and provision the instance.
-# Covers injecting a new SSH key via Bastion in case the original key is lost.
-# Details the complete workflow from instance stoppage and resource reclamation to successful re-allocation.
-
 [![한국어 문서](https://img.shields.io/badge/GitBook-한국어_문서-3185FF?style=for-the-badge&logo=gitbook&logoColor=white)](https://kyeong9743.gitbook.io/oracle-cloud/ko)
 [![English Docs](https://img.shields.io/badge/GitBook-English_Docs-3185FF?style=for-the-badge&logo=gitbook&logoColor=white)](https://kyeong9743.gitbook.io/oracle-cloud/en-english)
+
+---
+
+### 🇰🇷 개요 (Overview)
+인스턴스를 자동으로 확보하기 위한 스크립트를 제작해 인스턴스를 확보하고, SSH 키를 분실했을 때 배스천(Bastion)을 이용해 새 키를 주입하며, 인스턴스 정지 후 자원이 회수되어 다시 할당하기까지의 모든 과정을 담았습니다.
+
+### 🇺🇸 Description
+* Includes creating a script to automatically secure and provision the instance.
+* Covers injecting a new SSH key via Bastion in case the original key is lost.
+* Details the complete workflow from instance stoppage and resource reclamation to successful re-allocation.
