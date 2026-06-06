@@ -22,7 +22,9 @@ Oracle이 제공하는 Ampere A1 인스턴스는 전 세계적으로 경쟁이 �
 | 개수   | 총량 내에서 쪼개기 가능 | VM 최대 2개      |
 
 > ※ A1의 4 OCPU / 24GB는 계정 전체에 할당되는 **총량**이며, 이 한도 내에서 여러 인스턴스로 나눠 사용할 수 있습니다.
+
 > ※ 블록 볼륨은 계정당 200GB까지 무료로, 여러 인스턴스에 나눠서 사용 가능합니다.
+
 > ※ 무료 티어 사양·정책은 Oracle 정책에 따라 변경될 수 있으니, 최신 사양은 [공식 문서](https://www.oracle.com/cloud/free/) 참고
 
 ---
@@ -205,7 +207,9 @@ Oracle Cloud offers an Always Free tier. Due to intense global competition for O
 | Count    | Splittable within total | Up to 2 VMs         |
 
 > ※ The A1's 4 OCPU / 24GB is the **total** allocated per account; you can split it across multiple instances within this limit.
+
 > ※ Block volume is free up to 200GB per account and can be split across instances.
+
 > ※ Free tier specs and policies are subject to change by Oracle. Check the [official docs](https://www.oracle.com/cloud/free/) for current specs.
 
 ---
