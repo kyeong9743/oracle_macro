@@ -87,7 +87,7 @@ oci --version
 ### Step 2: 스크립트 설정
 
 ```bash
-curl -o ./oci-create.sh https://raw.githubusercontent.com/kyeong9743/oracle_macro/main/script/oci-create.sh
+curl -o ./oci-create.sh https://raw.githubusercontent.com/kyeong9743/oracle-cloud-macro/main/script/oci-create.sh
 chmod +x ./oci-create.sh
 vi ./oci-create.sh
 ```
@@ -149,7 +149,7 @@ tail -f ./oci-instance-created.log
 ## Step 1: 스크립트 설정
 
 ```bash
-curl -o ./oci-start-auto.sh https://raw.githubusercontent.com/kyeong9743/oracle_macro/main/script/oci-start-auto.sh
+curl -o ./oci-start-auto.sh https://raw.githubusercontent.com/kyeong9743/oracle-cloud-macro/main/script/oci-start-auto.sh
 chmod +x ./oci-start-auto.sh
 vi ./oci-start-auto.sh
 ```
@@ -270,7 +270,7 @@ oci --version
 ### Step 2: Configure the Script
 
 ```bash
-curl -o ./oci-create.sh https://raw.githubusercontent.com/kyeong9743/oracle_macro/main/script/oci-create.sh
+curl -o ./oci-create.sh https://raw.githubusercontent.com/kyeong9743/oracle-cloud-macro/main/script/oci-create.sh
 chmod +x ./oci-create.sh
 vi ./oci-create.sh
 ```
@@ -332,7 +332,7 @@ tail -f ./oci-instance-created.log
 ## Step 1: Configure the Script
 
 ```bash
-curl -o ./oci-start-auto.sh https://raw.githubusercontent.com/kyeong9743/oracle_macro/main/script/oci-start-auto.sh
+curl -o ./oci-start-auto.sh https://raw.githubusercontent.com/kyeong9743/oracle-cloud-macro/main/script/oci-start-auto.sh
 chmod +x ./oci-start-auto.sh
 vi ./oci-start-auto.sh
 ```
