@@ -24,7 +24,7 @@ while true; do
         --compartment-id "$COMPARTMENT_ID" \
         --availability-domain "$AVAILABILITY_DOMAIN" \
         --shape "VM.Standard.A1.Flex" \
-        --shape-config '{"ocpus": 4, "memoryInGBs": 24}' \
+        --shape-config '{"ocpus": 2, "memoryInGBs": 12}' \
         --subnet-id "$SUBNET_ID" \
         --source-details "{\"sourceType\":\"image\",\"imageId\":\"$IMAGE_ID\",\"bootVolumeSizeInGBs\":$VOLUME_SIZE}" \
         --assign-public-ip true \
