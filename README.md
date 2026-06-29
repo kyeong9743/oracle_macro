@@ -15,17 +15,19 @@ Oracle이 제공하는 Ampere A1 인스턴스는 전 세계적으로 경쟁이 �
 
 | 항목   | OCI Free Tier A1   | OCI Free Tier Micro |
 | ------ | ------------------ | ------------------- |
-| CPU    | 4 OCPU (ARM)       | 1 OCPU (AMD)        |
-| RAM    | 24GB               | 1GB                 |
+| CPU    | 2 OCPU (ARM)       | 1 OCPU (AMD)        |
+| RAM    | 12 GB              | 1 GB                |
 | 디스크 | 최대 200GB         | 최대 200GB          |
 | 기간   | **영구 무료**      | **영구 무료**       |
 | 개수   | 총량 내에서 쪼개기 가능 | VM 최대 2개      |
 
-> ※ A1의 4 OCPU / 24GB는 계정 전체에 할당되는 **총량**이며, 이 한도 내에서 여러 인스턴스로 나눠 사용할 수 있습니다.
+> ※ A1의 2 OCPU / 12 GB는 계정 전체에 할당되는 **총량**이며, 이 한도 내에서 여러 인스턴스로 나눠 사용할 수 있습니다.
 
 > ※ 블록 볼륨은 계정당 200GB까지 무료로, 여러 인스턴스에 나눠서 사용 가능합니다.
 
 > ※ 무료 티어 사양·정책은 Oracle 정책에 따라 변경될 수 있으니, 최신 사양은 [공식 문서](https://www.oracle.com/cloud/free/) 참고
+
+> ※ 2026년 6월, Always Free 정책 변경으로 4 OCPU, 24 Memory -> 2 OCPU, 12 Memory 로 변경되었습니다.
 
 ---
 
@@ -200,18 +202,20 @@ Oracle Cloud offers an Always Free tier. Due to intense global competition for O
 
 | Item     | OCI Free Tier A1        | OCI Free Tier Micro |
 | -------- | ----------------------- | ------------------- |
-| CPU      | 4 OCPU (ARM)            | 1 OCPU (AMD)        |
-| RAM      | 24GB                    | 1GB                 |
+| CPU      | 2 OCPU (ARM)            | 1 OCPU (AMD)        |
+| RAM      | 12 GB                   | 1 GB                |
 | Disk     | Up to 200GB             | Up to 200GB         |
 | Duration | **Always Free**         | **Always Free**     |
 | Count    | Splittable within total | Up to 2 VMs         |
 
-> ※ The A1's 4 OCPU / 24GB is the **total** allocated per account; you can split it across multiple instances within this limit.
+> ※ The A1's 2 OCPU / 12 GB is the **total** allocated per account; you can split it across multiple instances within this limit.
 
 > ※ Block volume is free up to 200GB per account and can be split across instances.
 
 > ※ Free tier specs and policies are subject to change by Oracle. Check the [official docs](https://www.oracle.com/cloud/free/) for current specs.
 
+> ※ In June 2026, the Always Free policy was updated, changing the resources from 4 OCPU, 24 Memory to 2 OCPU, 12 Memory.
+> 
 ---
 
 ## Creating an Instance (oci-create.sh)
